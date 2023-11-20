@@ -1,0 +1,37 @@
+body{
+    height:100%;
+    color: #f5f6f7;
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgICAgIBwgHBwcHBw0HBwcHBw8ICQcKFREWFhUREx8YHSggGBolJxMTITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0NDw0NDysZFRkrLTctKy0tKy0rKy0tNy0rKysrKysrNysrKystKysrKysrKysrKystLSsrKysrKysrK//AABEIAKgBKwMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAABAgAGAwX/xAAXEAEBAQEAAAAAAAAAAAAAAAAAARES/8QAGgEBAQEBAQEBAAAAAAAAAAAAAgEAAwUEBv/EABgRAQEBAQEAAAAAAAAAAAAAAAABERIC/9oADAMBAAIRAxEAPwCoqJio/aOSouIi4NVUVExUAlRUTFQaSoqCKgqYYIqDVwxUEVEXGVBCJYYY0MRsYthRcYsUbGhaFGBZkZizM2sxZk0MWZugWZk6ZmZk6ZizN25aKiYqPTfOqLiYqDSi4qJioBqiomLg1ZDFQRUClhioIqIWGGCKg1cMMaGCuMqBURsaFijNCzIxYsiMxZkrMxZKGLJoaCzNo6zMzal9MzMw30zMyD05aKiYqPVqxcXERcCnFRUEVBpxUVExcClIYuJioNIxUEVBIxUEVBqtFCGCxkLQxGLMUYxmhRGLFkoLMgsWZAtZmLDQxZgtDFmC0MWYLQxDBa5WKiYqPVr6YuLiIuBTi4qJi4FOGLiYqDSiouJioFOKhgiolUxUEMBVQwRURmVARYwtCiMYCyNCxEWZiw1mYoFBYsFDFmChizOdoYsznalizOd9OTiomLj1q+6Ki4mLgV0iouJioFOKi4mKgU4qKgioNIxUEVBqmKgioNVlQKgs0UIpEaFiiMWKVKxaMg1ixQKMLFgoYsgWsxZnO0MWZztDFmcrQxZnO1yEXExcetXoxUXExUCukXFRMXBpxUXERcClKqKiYqDSVFRMVBqqiomKgqqGCGC2lUEMFCRCyUwwQwRMZjEGsQWCsWZBpZmZzrMxRztDFmc6GLM5UMWZzrkYqNIqR61elDFxMi4NOVUVExcCnKYuJi4NKVUVExUEtVFRMVAq6qKiYqDV0xUTFRG0wwQwU0wgslpIhEbSYGQbVMCwWkpKBaWjMwWlgUc7WrMzOdrFmZzrMWRzrk5FSNIqR61r0Y0VGkVIFOVoqCRUGlqoqCKg0tMVBDBXVRUTFQauqiomKgrpiomGI2qhiVI2khkHVMCiWkpKDaSGQLVMCwWlhCgWkhkC1QYs51iCjnWLMwOXkVIrDj0tehqZFSGQ4mrokVI0ioha0io0MFdMVIlcGr00VAYK9GKTFRG6JBReiUlE6UwKN0SksOkpKDapklB1RSUG0mBmC1RSUC1TAoFJBQaYRCgOe5bl68ty9DX268+Tj05bE1dRhkVhxNXU4ZFYcTW0YcOGJavTMWRumhZkbomAo3RhSWbolLI3SiksnRKTqD0pk6WHpWlJiJqoUkRtUUlBtVCmKiCYRCgqZoUF8flsZn1vrbGxmZmw4zMzY2MzNrFmZNZozMulmZG0szMms2lmbWZmRNLMzNpZmRNJZkQnWZk0wxmFCqMyJSYWRDCzCKoWZEf/2Q==);
+    background-size:100% 100%;
+} 
+
+h1, p{
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin: 0.5em 0;
+}
+/*textarea, select{
+    display: block;
+}*/
+input,textarea,select,button{
+    width:100%;
+   }
+   input[type=checkbox],input[type=radio]{
+    width:unset;
+   }
+
+   .form-area{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    color: white;
+    background-color:rgba(207, 159, 255, 0.8);
+    padding:3%;
+   }
+   p{
+       margin:0, 0.5rem;
+   }

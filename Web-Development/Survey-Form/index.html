@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Mental Health Survey</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1 id="title">Mental Health Survey</h1>
+        <p id="description"><em>Please take a few minutes to fill out this survey on the overall status of your mental health. Your responses will be kept confidential. This is a safe space. Thank you for your input.
+            </em></p>
+            <div class="form-area">
+        <form method="post" action="" id="survey-form">
+            <label id="name-label">Name: <input type="text" id='name' placeholder="What can we call you?" required></label>
+
+            <label id="email-label">Email: <input type="email" id="email" placeholder="How can we reach out to you?" required></label>
+
+            <label id="number-label">Age: <input type="number" id="number" min="12" max="120" placeholder="How old are you?"></label>
+
+            <label>Overall how would you describe your mental health?
+            <select id="dropdown">
+               <option>Excellent</option> 
+               <option>Somewhat good</option>
+               <option>Poor</option>
+               <option>Not Sure</option>
+            </select></label>
+            Is there a history of mental disorder in your family?
+            <label><input type="radio" value="1" name='history'>Yes</label>
+            <label><input type="radio" name='history' value="1">No</label>
+            <label><input type="radio" value="1" name='history'>Not Sure</label>
+            <label><input type="radio" value="1" name='history'>Prefer not to say</label>
+            If yes, please select the family memeber(s) had a history of mental illness.
+            <label><input type="checkbox" value="1">Father</label>
+            <label><input type="checkbox" value="1">Mother</label>
+            <label><input type="checkbox" value="1">Brother</label>
+            <label><input type="checkbox" value="1">Sister</label>
+            <label><input type="checkbox" value="1">Other</label>
+
+            <label>Is there anything else that you would like to add? <textarea rows="3" cols="20">
+
+            </textarea></label>
+            <button type="submit" id='submit'>Submit</button>
+            </div>
+            
+        </form>
+    </body>
+</html>
